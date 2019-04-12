@@ -1,0 +1,265 @@
+#nico {
+    margin: 10vh auto;
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+    border: solid black;
+    border-width: 2px 10px 10px 2px;
+    border-radius: 0 10px 5px 10px;
+}
+
+#nico .hair {
+    position: absolute;
+    margin: 30px 225px;
+    width: 300px;
+    height: 250px;
+    background-color: #2c222b;
+    border-radius: 0 50% 25px 100%;
+}
+
+#nico .face {
+    position: absolute;
+    margin: 100px 300px;
+    width: 200px;
+    height: 300px;
+    background-color: #ffcd94;
+    border-radius: 100px 150px 100% 100%;
+    border-right: 2px solid #2c222b;
+    border-left: 2px solid #2c222b;
+    border-bottom: 2px solid #2c222b;
+}
+
+#nico .ear {
+    position: absolute;
+    margin: 200px 475px;
+    width: 60px;
+    height: 100px;
+    background-color: #ffcd94;
+    border-radius: 100% 50% 100% 100%;
+    border-right: 2px solid black;
+}
+
+#nico .ear-inner {
+    position: absolute;
+    margin: 25px 25px;
+    width: 25px;
+    height: 50px;
+    background-color: #eac086;
+    border-radius: 100%;
+    border-left: 1px solid black;
+}
+
+#nico .nose {
+    position: absolute;
+    margin: 200px 300px;
+    width: 75px;
+    height: 100px;
+    background-color: #ffcd94;
+    border-radius: 100% 0 0 0;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+#nico .eyebrow-right {
+    position: absolute;
+    margin: 175px 400px;
+    width: 75px;
+    height: 25px;
+    background-color: #2c222b;
+    border-radius: 50% 5px 100% 25px;
+    transform: rotate(5deg);
+    -webkit-animation-name: eyebrows-right;
+    -webkit-animation-duration: 2s;
+    animation-name: eyebrows-right;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+#nico .eyebrow-left {
+    position: absolute;
+    margin: 175px 300px;
+    width: 75px;
+    height: 25px;
+    background-color: #2c222b;
+    border-radius: 5px 50% 25px 100%;
+    transform: rotate(-5deg);
+    -webkit-animation-name: eyebrows-left;
+    -webkit-animation-duration: 2s;
+    animation-name: eyebrows-left;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+#nico .eye-right {
+    position: absolute;
+    margin: 195px 425px;
+    width: 15px;
+    height: 15px;
+    background-color: #2c222b;
+    border-radius: 100%;
+    transform: rotate(5deg);
+    -webkit-animation-name: eyes;
+    -webkit-animation-duration: 2s;
+    animation-name: eyes;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+#nico .eye-right-sparkle {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 100%;
+    -webkit-animation-name: eyes-sparkle;
+    -webkit-animation-duration: 2s;
+    animation-name: eyes-sparkle;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+#nico .eye-left {
+    position: absolute;
+    margin: 195px 325px;
+    width: 15px;
+    height: 15px;
+    background-color: #2c222b;
+    border-radius: 100%;
+    transform: rotate(5deg);
+    -webkit-animation-name: eyes;
+    -webkit-animation-duration: 2s;
+    animation-name: eyes;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+#nico .eye-left-sparkle {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 100%;
+    -webkit-animation-name: eyes-sparkle;
+    -webkit-animation-duration: 2s;
+    animation-name: eyes-sparkle;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+#nico .mouth {
+    position: absolute;
+    position: absolute;
+    margin: 325px 360px;
+    width: 75px;
+    height: 10px;
+    background-color: ffcd94;
+    border-bottom: 2px solid black;
+    -webkit-animation-name: smile;
+    -webkit-animation-duration: 4s;
+    animation-name: smile;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+#nico .neck {
+    position: absolute;
+    margin: 250px 375px;
+    width: 120px;
+    height: 200px;
+    background-color: #ffcd94;
+    border-radius: 100px 0 50% 50%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#nico .shirt {
+    position: absolute;
+    margin: 350px 240px;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100px 150px 50% 50%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+@-webkit-keyframes eyes {
+    0% {height: 0px;}
+    10% {height: 15px;}
+    20%  {height: 15px;}
+    30%  {height: 15px;}
+    40%  {height: 15px;}
+    50%  {height: 15px;}
+    60%  {height: 15px;}
+    70%  {height: 15px;}
+    80%  {height: 15px;}
+    90%  {height: 15px;}
+    100% {height: 0px;}
+}
+
+@-webkit-keyframes eyes-sparkle {
+    0% {height: 0px;}
+    10% {height: 5px;}
+    20%  {height: 5px;}
+    30%  {height: 5px;}
+    40%  {height: 5px;}
+    50%  {height: 5px;}
+    60%  {height: 5px;}
+    70%  {height: 5px;}
+    80%  {height: 5px;}
+    90%  {height: 5px;}
+    100% {height: 0px;}
+}
+
+@-webkit-keyframes eyebrows-right {
+    0% {transform: rotate(5deg); margin: 175px 400px;}
+    10% {transform: rotate(0deg); margin: 170px 400px;}
+    20% {transform: rotate(0deg); margin: 170px 400px;}
+    30% {transform: rotate(0deg); margin: 170px 400px;}
+    40% {transform: rotate(0deg); margin: 170px 400px;}
+    50% {transform: rotate(0deg); margin: 170px 400px;}
+    60% {transform: rotate(0deg); margin: 170px 400px;}
+    70% {transform: rotate(0deg); margin: 170px 400px;}
+    80% {transform: rotate(0deg); margin: 170px 400px;}
+    90% {transform: rotate(0deg); margin: 170px 400px;}
+    100% {transform: rotate(5deg); margin: 175px 400px;}
+}
+
+@-webkit-keyframes eyebrows-left {
+    0% {transform: rotate(-5deg); margin: 175px 300px;}
+    10% {transform: rotate(0deg); margin: 170px 300px;}
+    20% {transform: rotate(0deg); margin: 170px 300px;}
+    30% {transform: rotate(0deg); margin: 170px 300px;}
+    40% {transform: rotate(0deg); margin: 170px 300px;}
+    50% {transform: rotate(0deg); margin: 170px 300px;}
+    60% {transform: rotate(0deg); margin: 170px 300px;}
+    70% {transform: rotate(0deg); margin: 170px 300px;}
+    80% {transform: rotate(0deg); margin: 170px 300px;}
+    90% {transform: rotate(0deg); margin: 170px 300px;}
+    100% {transform: rotate(-5deg); margin: 175px 300px;}
+}
+
+@-webkit-keyframes smile {
+    0% {border-right: none; border-radius: none;}
+    10% {border-right: none; border-radius: none;}
+    20%  {border-right: none; border-radius: none;}
+    30%  {border-right: none; border-radius: none;}
+    40%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
+    50%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
+    60%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
+    70%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
+    80%  {border-right: none; border-radius: none;}
+    90%  {border-right: none; border-radius: none;}
+    100% {border-right: none; border-radius: none;}
+}
