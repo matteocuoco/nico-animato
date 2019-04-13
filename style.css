@@ -164,12 +164,8 @@
     height: 10px;
     background-color: ffcd94;
     border-bottom: 2px solid black;
-    -webkit-animation-name: smile;
-    -webkit-animation-duration: 4s;
-    animation-name: smile;
-    animation-duration: 6s;
-    animation-delay: 4s;
-    animation-iteration-count: infinite;
+    border-right: 1px solid black;
+    border-radius: 0 0 100% 0;
 }
 
 #nico .neck {
@@ -248,18 +244,4 @@
     80% {transform: rotate(0deg); margin: 170px 300px;}
     90% {transform: rotate(0deg); margin: 170px 300px;}
     100% {transform: rotate(-5deg); margin: 175px 300px;}
-}
-
-@-webkit-keyframes smile {
-    0% {border-right: none; border-radius: none;}
-    10% {border-right: none; border-radius: none;}
-    20%  {border-right: none; border-radius: none;}
-    30%  {border-right: none; border-radius: none;}
-    40%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
-    50%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
-    60%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
-    70%  {border-right: 2px solid black; border-radius: 0 0 100% 0;}
-    80%  {border-right: none; border-radius: none;}
-    90%  {border-right: none; border-radius: none;}
-    100% {border-right: none; border-radius: none;}
 }
